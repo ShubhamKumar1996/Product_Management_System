@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits.h>
+#include "listProducts.hpp"
 
 void showMenu();
 void addProduct();
@@ -23,6 +24,7 @@ int main() {
         }
         case 3:
         {
+            listAllBooks();
             break;
         }
         case 4:
@@ -40,6 +42,7 @@ void showMenu()
 {
     std::cout << "Menu" << std::endl;
     std::cout << "1. Add Product" << std::endl;
+    std::cout << "3. List all Product" << std::endl;
 }
 
 void addProduct()
