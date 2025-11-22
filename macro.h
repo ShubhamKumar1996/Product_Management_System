@@ -1,0 +1,3 @@
+#define SEARCH_BY_NAME 1
+#define SEARCH_BY_AUTHOR 2
+#define RETURN_TO_MAIN_MENU 3
